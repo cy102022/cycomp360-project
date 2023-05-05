@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> COMP360 Project: Page 1 </title>
+</head>
+
+<body>
+    <p> <a href = "index.html"> Index Page </a> </p>
+
+    <!-- We place the canvas elements on the website -->
+    
+    <h2> Canvas 1 </h2>
+    <div>
+        <canvas id="CanvasOne"> "Fallback" message: displayed if the browser cannot deal with canvas elements </canvas>
+    </div>
+
+    <h2> Canvas 2 </h2>
+    <div>
+        <canvas id="CanvasTwo" width="400" height="400"> Fallback message 2 </canvas>
+    </div>
+    
+    <h2> Canvas 3 </h2>
+    <div>
+        <canvas id="CanvasThree"> Fallback message 3 </canvas>
+    </div>
+
+    <h2> Canvas 4 </h2>
+    <div style = "word-wrap: break-word;">
+        <canvas id="CanvasFour"> Fallback message 4 </canvas>
+        <p> Copy the data URL and paste it into the address field of your browser: </p>
+        <p id = "dataURL"></p>
+    </div>
+    
+    <script src = "sample.js"> </script>
+</body>
